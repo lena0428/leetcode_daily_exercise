@@ -1,5 +1,9 @@
 package two_pointers;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @program: leetcode
  * @description: https://leetcode.com/problems/3sum/description/

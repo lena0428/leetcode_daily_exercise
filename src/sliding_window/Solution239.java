@@ -1,4 +1,4 @@
-package arrays_hashing;
+package sliding_window;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
