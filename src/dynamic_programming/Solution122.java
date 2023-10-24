@@ -9,6 +9,6 @@ package dynamic_programming;
 
 public class Solution122 {
   public int maxProfit(int[] prices) {
-
+    return -1;
   }
 }
