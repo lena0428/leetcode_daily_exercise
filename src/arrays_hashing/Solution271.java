@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @program: leetcode
- * @description: https://leetcode.com/problems/encode-and-decode-strings/
+ * @description: https://www.lintcode.com/problem/659/
  * @author: Yidan
  * @create: 2023-10-22 19:19
  **/
