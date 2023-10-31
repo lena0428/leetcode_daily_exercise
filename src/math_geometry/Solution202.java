@@ -2,7 +2,7 @@ package math_geometry;
 
 /**
  * @program: leetcode
- * @description: https://leetcode.com/problems/multiply-strings/
+ * @description: https://leetcode.com/problems/happy-number/
  * @author: Yidan
  * @create: 2023-10-30 19:00
  **/
