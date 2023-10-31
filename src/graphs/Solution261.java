@@ -23,32 +23,34 @@ public class Solution261 {
       return true;
     }
     List<List<Integer>> neighbors = new ArrayList<>();
+    HashSet<Integer> visited = new HashSet<>();
     for (int i = 0; i < n; i++) {
       neighbors.add(new ArrayList<>());
     }
-    HashSet<Integer> visited = new HashSet<>();
     for (int[] edge: edges) {
       neighbors.get(edge[0]).add(edge[1]);
       neighbors.get(edge[1]).add(edge[0]);
     }
-    // each point can connect with each other, and use dfs (will not visit twice)
     return dfs(0, -1, visited, neighbors) && visited.size() == n;
   }
 
   public boolean dfs(int cur, int prev, HashSet<Integer> visited, List<List<Integer>> neighbors) {
+    // the current point was visited, the graph has a loop.
     if (visited.contains(cur)) {
       return false;
     }
+    // visit current point
     visited.add(cur);
-    List<Integer> neighbor = neighbors.get(cur);
-    for (int i: neighbor) {
-      if (i == prev) {
+    List<Integer> neighborList = neighbors.get(cur);
+    for (int neighbor: neighborList) {
+      // just parent node, does not mean there is a loop.
+      if (prev == neighbor) {
         continue;
       }
-      if (visited.contains(i)) {
+      if (visited.contains(neighbor)) {
         return false;
       }
-      if (!dfs(i, cur, visited, neighbors)) {
+      if (!dfs(neighbor, cur, visited, neighbors)) {
         return false;
       }
     }
