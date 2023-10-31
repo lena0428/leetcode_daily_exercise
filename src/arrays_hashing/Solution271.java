@@ -1,5 +1,6 @@
 package arrays_hashing;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,19 +12,17 @@ import java.util.List;
 
 public class Solution271 {
   /*
- * @param strs: a list of strings
- * @return: encodes a list of strings to a single string.
- */
+   * @param strs: a list of strings
+   * @return: encodes a list of strings to a single string.
+   */
   public String encode(List<String> strs) {
     // write your code here
-    StringBuilder res = new StringBuilder();
-    for (int i = 0; i < strs.size(); i++) {
-      res.append(strs.get(i) + ":;");
-      if (i == strs.size() - 1) {
-        continue;
-      }
+    String res = "";
+    for (String str: strs) {
+      res += str.length() + "#";
+      res += str;
     }
-    return res.toString();
+    return res;
   }
 
   /*
@@ -31,10 +30,17 @@ public class Solution271 {
    * @return: decodes a single string to a list of strings
    */
   public List<String> decode(String str) {
-    String[] tmp = str.split(":;");
+    // write your code here
     List<String> res = new ArrayList<>();
-    for (String string: tmp) {
-      res.add(string);
+    int i = 0;
+    while (i < str.length()) {
+      int j = i;
+      while (str.charAt(j) != '#') {
+        j++;
+      }
+      int len = Integer.valueOf(str.substring(i, j));
+      res.add(str.substring(j + 1, j + len + 1));
+      i = j + len + 1;
     }
     return res;
   }
