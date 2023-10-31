@@ -23,10 +23,10 @@ public class Solution1046 {
     while (true) {
       int left = 0;
       int right = 0;
-      if (queue.size() >= 1) {
+      if (!queue.isEmpty()) {
         left = queue.poll();
       }
-      if (queue.size() >= 1) {
+      if (!queue.isEmpty()) {
         right = queue.poll();
       }
       queue.offer(Math.abs(left - right));
