@@ -16,7 +16,8 @@ public class Solution424 {
     int right = 0;
     int res = 0;
     while (right < s.length()) {
-      cnt[s.charAt(right) - 'A'] = 1 + cnt[s.charAt(right) - 'A'];
+      cnt[s.charAt(right) - 'A'] ++;
+      // length - max(count()) -> min num of character to be replaced
       while (right - left + 1 - Arrays.stream(cnt).max().getAsInt() > k) {
         cnt[s.charAt(left) - 'A']--;
         left++;
