@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1398d73e-c43a-4741-b697-85676587be92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode_daily_exercise/src/stack/Solution155.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_daily_exercise/src/c_sliding_window/Solution567.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_hashing/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_hashing/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_hashing/Solution128.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_hashing/Solution128.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_hashing/Solution217.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_hashing/Solution217.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_hashing/Solution238.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_hashing/Solution238.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_hashing/Solution242.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_hashing/Solution242.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_hashing/Solution271.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_hashing/Solution271.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_hashing/Solution347.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_hashing/Solution347.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_hashing/Solution36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_hashing/Solution36.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_hashing/Solution49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_hashing/Solution49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sliding_window/Solution239.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sliding_window/Solution239.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sliding_window/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sliding_window/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/Solution150.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/Solution150.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/Solution20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/Solution20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/two_pointers/Solution11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/two_pointers/Solution11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/two_pointers/Solution125.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/two_pointers/Solution125.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/two_pointers/Solution15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/two_pointers/Solution15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/two_pointers/Solution167.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/two_pointers/Solution167.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,27 +52,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/zhuyidan/leetcode&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/zhuyidan/leetcode/leetcode_daily_exercise/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode_daily_exercise/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +89,10 @@
       <updated>1697869456291</updated>
       <workItem from="1697869458660" duration="422000" />
       <workItem from="1697869909260" duration="9504000" />
-      <workItem from="1698027509364" duration="8236000" />
+      <workItem from="1698027509364" duration="11620000" />
+      <workItem from="1698379416093" duration="1288000" />
+      <workItem from="1698546778463" duration="32999000" />
+      <workItem from="1699059880134" duration="4206000" />
     </task>
     <servers />
   </component>
