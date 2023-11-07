@@ -1,0 +1,23 @@
+package n_greedy;
+
+/**
+ * @program: leetcode
+ * @description: https://leetcode.com/problems/maximum-subarray/description/
+ * @author: Yidan
+ * @create: 2023-11-05 21:03
+ **/
+
+public class Solution53 {
+  public int maxSubArray(int[] nums) {
+    int sum = 0;
+    int maxSum = Integer.MIN_VALUE;
+    for (int i = 0; i < nums.length; i++) {
+      sum += nums[i];
+      maxSum = Math.max(maxSum, sum);
+      if (sum < 0) {
+        sum = 0;
+      }
+    }
+    return maxSum;
+  }
+}
