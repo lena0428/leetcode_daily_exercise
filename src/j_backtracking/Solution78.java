@@ -19,7 +19,7 @@ public class Solution78 {
   }
 
   public void dfs(List<List<Integer>> res, List<Integer> path, int[] nums, int index) {
-    if (index >= nums.length) {
+    if (index == nums.length) {
       res.add(new ArrayList<>(path));
       return;
     }

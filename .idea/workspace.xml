@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1398d73e-c43a-4741-b697-85676587be92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/j_backtracking/Solution40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_backtracking/Solution90.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode_daily_exercise" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode_daily_exercise" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/j_backtracking/Solution78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/j_backtracking/Solution78.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/zhuyidan/leetcode/leetcode_daily_exercise/src",
+    "last_opened_file_path": "/Users/zhuyidan/leetcode/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +60,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/leetcode_daily_exercise/src" />
     </key>
   </component>
@@ -77,7 +80,7 @@
       <workItem from="1699059880134" duration="4323000" />
       <workItem from="1699236080633" duration="2068000" />
       <workItem from="1699241279204" duration="9186000" />
-      <workItem from="1699391456361" duration="485000" />
+      <workItem from="1699391456361" duration="2077000" />
     </task>
     <servers />
   </component>
