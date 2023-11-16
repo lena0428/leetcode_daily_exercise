@@ -29,7 +29,7 @@ public class Solution155 {
       }
     }
 
-    Stack<Item> stack;
+    private Stack<Item> stack;
 
     public MinStack() {
       stack = new Stack<>();
