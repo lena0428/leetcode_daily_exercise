@@ -11,20 +11,12 @@ import java.util.Stack;
 
 public class Solution739 {
   class Item {
-    private int temperature;
-    private int index;
+    int temperature;
+    int index;
 
     Item (int temperature, int index) {
       this.temperature = temperature;
       this.index = index;
-    }
-
-    public int getTemperature() {
-      return this.temperature;
-    }
-
-    public int getIndex() {
-      return this.index;
     }
   }
   public int[] dailyTemperatures(int[] temperatures) {
@@ -38,9 +30,9 @@ public class Solution739 {
 
     Stack<Item> stack = new Stack<>();
     for (int i = 0; i < temperatures.length; i++) {
-      while (!stack.isEmpty() && temperatures[i] > stack.peek().getTemperature()) {
+      while (!stack.isEmpty() && temperatures[i] > stack.peek().temperature) {
         Item pop = stack.pop();
-        res[pop.getIndex()] = i - pop.getIndex();
+        res[pop.index] = i - pop.index;
       }
       stack.push(new Item(temperatures[i], i));
     }
