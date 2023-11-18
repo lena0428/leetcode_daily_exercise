@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1398d73e-c43a-4741-b697-85676587be92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/e_binary_search/Solution153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/f_linked_list/Solution143.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/g_trees/Solution297.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/g_trees/Solution543.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_hashing/Solution271.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/e_binary_search/Solution153.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e_binary_search/Solution153.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +84,8 @@
       <workItem from="1699236080633" duration="2068000" />
       <workItem from="1699241279204" duration="9186000" />
       <workItem from="1699391456361" duration="2373000" />
-      <workItem from="1700102017196" duration="8341000" />
+      <workItem from="1700102017196" duration="9595000" />
+      <workItem from="1700263177428" duration="4295000" />
     </task>
     <servers />
   </component>
@@ -88,5 +94,21 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/f_linked_list/Solution143.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/f_linked_list/Solution143.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
