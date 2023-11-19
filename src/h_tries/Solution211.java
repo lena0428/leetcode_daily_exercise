@@ -12,6 +12,7 @@ public class Solution211 {
     class TrieNode {
       TrieNode[] children;
       boolean endOfTheWord;
+
       TrieNode() {
         children = new TrieNode[26];
         endOfTheWord = false;
@@ -40,23 +41,22 @@ public class Solution211 {
       return searchWord(word, 0, root);
     }
 
-    private boolean searchWord(String word, int index, TrieNode node) {
+    private boolean searchWord(String word, int index, TrieNode root) {
       if (index == word.length()) {
-        return node.endOfTheWord;
+        return root.endOfTheWord;
       }
-
       char c = word.charAt(index);
+      // skip it
       if (c == '.') {
-        // skip it
-        for (TrieNode child : node.children) {
-          if (child != null && searchWord(word, index + 1, child)) {
+        for (TrieNode children : root.children) {
+          if (children != null && searchWord(word, index + 1, children)) {
             return true;
           }
         }
         return false;
       } else {
-        TrieNode nextNode = node.children[c - 'a'];
-        return nextNode != null && searchWord(word, index + 1, nextNode);
+        TrieNode child = root.children[c - 'a'];
+        return child != null && searchWord(word, index + 1, child);
       }
     }
   }
