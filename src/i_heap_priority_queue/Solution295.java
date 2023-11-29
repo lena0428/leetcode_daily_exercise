@@ -29,7 +29,7 @@ public class Solution295 {
     public void addNum(int num) {
       maxHeap.offer(num);
       // make sure every element in maxHeap is smaller half, every element in min Heap in bigger half
-      if (maxHeap.size() != 0 && minHeap.size() != 0 && maxHeap.peek() > minHeap.peek()) {
+      if (!maxHeap.isEmpty() && !minHeap.isEmpty() && maxHeap.peek() > minHeap.peek()) {
         minHeap.offer(maxHeap.poll());
       }
       // make balance
